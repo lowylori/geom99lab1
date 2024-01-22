@@ -43,7 +43,10 @@ Finally, you are ready for a bite to eat... Dine at Be Our Guest Resturant, with
 ```
 https://...
 ```
-
+Ready to go home? Take Disney's transit to Animal Kingdom Lodge for a memerable experience. Look out your balcony and experience your own African Safari adventure. 
+```
+https://...
+```
 ____
 ## Rubric
 
