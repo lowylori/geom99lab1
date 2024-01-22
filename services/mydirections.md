@@ -9,7 +9,13 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://maps.googleapis.com/maps/api/directions/json?origin=Magic+Kingdom+Park&destination=Disney%27s+Animal+Kingdom+Lodge&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+https://maps.googleapis.com/maps/api/directions/json
+  ?destination=place_id:ChIJ4x6xj6GA54gRcYUrS30rBi8
+  &mode=walking
+  &avoid=indoor
+  &origin=place_id:ChIJgUulalN-3YgRGoTaWM2LawY
+  &waypoints=place_id:ChIJ98eLQNOB3YgR5AhLf7AucNo|place_id:ChIJZ4mxe6KA54gRhkbd9uRKOUI|place_id:ChIJx3W2iZiA54gRAVmRr5RcmwQ
+  &key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 
 Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
