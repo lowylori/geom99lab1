@@ -27,6 +27,22 @@ Read the Rubric to find out about what options exist to earn more marks. Here is
 
   which the JSON will have a CID that can be directly used as a URL like https://maps.google.com/?cid=4569584641105657000
 
+## The experience begins at Magic Kingdom Park in Orlando Florida...
+```
+https://...
+```
+Our first stop is at Space Mountain, an indoor rollercoster that makes you feel like you are travelling through space at high speeds.
+```
+https://...
+```
+Next, take a relaxing ride on "it's a small world", an indoor ferry ride with a song that will surely get stuck in your head. However, in a short time you feel as though you've experienced Disney's idea of culture.
+```
+https://...
+```
+Finally, you are ready for a bite to eat... Dine at Be Our Guest Resturant, with a Beauty and the Beast theme. Considered to be one of the best resturants in Magic Kingdon (however, they're all pretty good)
+```
+https://...
+```
 
 ____
 ## Rubric
