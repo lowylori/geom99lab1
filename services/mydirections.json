@@ -1,1 +1,1164 @@
-Remove this text and paste your JSON results from the Directions API
+{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJgUulalN-3YgRGoTaWM2LawY",
+         "types" : 
+         [
+            "amusement_park",
+            "establishment",
+            "point_of_interest",
+            "tourist_attraction"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ98eLQNOB3YgR5AhLf7AucNo",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJZ4mxe6KA54gRhkbd9uRKOUI",
+         "types" : 
+         [
+            "amusement_park",
+            "establishment",
+            "point_of_interest"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJx3W2iZiA54gRAVmRr5RcmwQ",
+         "types" : 
+         [
+            "cafe",
+            "establishment",
+            "food",
+            "point_of_interest",
+            "restaurant"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ4x6xj6GA54gRcYUrS30rBi8",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "tourist_attraction"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 28.4212088,
+               "lng" : -81.57820819999999
+            },
+            "southwest" : 
+            {
+               "lat" : 28.4161343,
+               "lng" : -81.58336989999999
+            }
+         },
+         "copyrights" : "Map data ©2024 Google",
+         "legs" : 
+         [
+            {
+               "distance" : 
+               {
+                  "text" : "0.4 mi",
+                  "value" : 600
+               },
+               "duration" : 
+               {
+                  "text" : "8 mins",
+                  "value" : 483
+               },
+               "end_address" : "Bay Lake, FL 32836, USA",
+               "end_location" : 
+               {
+                  "lat" : 28.418758,
+                  "lng" : -81.5782038
+               },
+               "start_address" : "Bay Lake, FL 32836, USA",
+               "start_location" : 
+               {
+                  "lat" : 28.4161343,
+                  "lng" : -81.58145739999999
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "144 ft",
+                        "value" : 44
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4165262,
+                        "lng" : -81.58148159999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "y_mlDb{|pNIBWCa@BK?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4161343,
+                        "lng" : -81.58145739999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "66 ft",
+                        "value" : 20
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 16
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.416678,
+                        "lng" : -81.58137499999999
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eMain St\u003c/b\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : 
+                     {
+                        "points" : "ibmlDf{|pNMGOM"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4165262,
+                        "lng" : -81.58148159999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "118 ft",
+                        "value" : 36
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 29
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4169828,
+                        "lng" : -81.5814365
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eMain St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "gcmlDpz|pNOLI?M?K?G?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.416678,
+                        "lng" : -81.58137499999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "75 ft",
+                        "value" : 23
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 18
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4170392,
+                        "lng" : -81.58121709999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eMain St\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Emporium (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "cemlD~z|pNAWCIEI"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4169828,
+                        "lng" : -81.5814365
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "354 ft",
+                        "value" : 108
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 87
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4180129,
+                        "lng" : -81.5812124
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eMain St\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Uptown Jewelers (on the right in 140 ft)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "oemlDry|pNWAQ?U?E@M?O?U?gAA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4170392,
+                        "lng" : -81.58121709999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "499 ft",
+                        "value" : 152
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 122
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4185336,
+                        "lng" : -81.57995409999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e after Casey's Corner (on the left)\u003cdiv style=\"font-size:0.9em\"\u003ePass by the lake (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "qkmlDpy|pNAoAAI?MAO?m@CK[QKEKG_@]IK"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4180129,
+                        "lng" : -81.5812124
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "177 ft",
+                        "value" : 54
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 44
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4184478,
+                        "lng" : -81.57940889999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "ynmlDtq|pNB]JmA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4185336,
+                        "lng" : -81.57995409999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "213 ft",
+                        "value" : 65
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 52
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4184609,
+                        "lng" : -81.5789322
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Merchant of Venus (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "inmlDhn|pNEACACACCAACCAAACACCIAM@G?C@C@EDGDEDCBADC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4184478,
+                        "lng" : -81.57940889999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "141 ft",
+                        "value" : 43
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 35
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4185113,
+                        "lng" : -81.5784951
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "knmlDhk|pNCg@Em@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4184609,
+                        "lng" : -81.5789322
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "66 ft",
+                        "value" : 20
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 16
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4186903,
+                        "lng" : -81.5785432
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "unmlDrh|pNc@F"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4185113,
+                        "lng" : -81.5784951
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "115 ft",
+                        "value" : 35
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.418758,
+                        "lng" : -81.5782038
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "yomlDzh|pNIg@AA?AAA?AAA?A?A?A?A?A?A?A@??A?A"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4186903,
+                        "lng" : -81.5785432
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "0.3 mi",
+                  "value" : 507
+               },
+               "duration" : 
+               {
+                  "text" : "7 mins",
+                  "value" : 411
+               },
+               "end_address" : "1180 Seven Seas Drive, Lake Buena Vista, FL 32830, USA",
+               "end_location" : 
+               {
+                  "lat" : 28.420402,
+                  "lng" : -81.5819209
+               },
+               "start_address" : "Bay Lake, FL 32836, USA",
+               "start_location" : 
+               {
+                  "lat" : 28.418758,
+                  "lng" : -81.5782038
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "197 ft",
+                        "value" : 60
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 48
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4186461,
+                        "lng" : -81.5787931
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e toward \u003cb\u003eTomorrowland\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "gpmlDvf|pN?@?@A??@?@?@?@?@?@?@@@?@@@?@@@Hf@Fp@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.418758,
+                        "lng" : -81.5782038
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 mi",
+                        "value" : 162
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 130
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4197037,
+                        "lng" : -81.57975259999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eTomorrowland\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Star Traders (on the left in 210 ft)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "qomlDlj|pNOXMf@EPGVADADCBC@C?C@EAE?IDEBSFQH_@LSFMBGDED"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4186461,
+                        "lng" : -81.5787931
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "59 ft",
+                        "value" : 18
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 14
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4197318,
+                        "lng" : -81.5799191
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eTomorrowland\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "cvmlDlp|pNE`@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4197037,
+                        "lng" : -81.57975259999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "118 ft",
+                        "value" : 36
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4194937,
+                        "lng" : -81.58017
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at Cheshire Café to stay on \u003cb\u003eTomorrowland\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "ivmlDnq|pNRTHFPR"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4197318,
+                        "lng" : -81.5799191
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "358 ft",
+                        "value" : 109
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 92
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4197165,
+                        "lng" : -81.581199
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e after Cosmic Ray's Starlight Café (on the left)",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "ytmlD`s|pNAB?D?B?B?B?B?F@T@RAR?BABA@?@C@A@A@CBA@ADAB?@?B?HAPAFABQ\\"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4194937,
+                        "lng" : -81.58017
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "95 ft",
+                        "value" : 29
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 24
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4199798,
+                        "lng" : -81.581192
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at Cinderella Castle toward \u003cb\u003eFantasyland\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "gvmlDny|pN]?MAG?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4197165,
+                        "lng" : -81.581199
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "115 ft",
+                        "value" : 35
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4201884,
+                        "lng" : -81.5813909
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e after Sir Mickey's (on the right)",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "{wmlDly|pN?D?@?BA@?BA@?@A@A@ABA@A@A@C@A?A@A?A?C?A@AAE?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4199798,
+                        "lng" : -81.581192
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "190 ft",
+                        "value" : 58
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 47
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.420402,
+                        "lng" : -81.5819209
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e after Fantasy Faire (on the left)\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "eymlDtz|pN[t@EL?BCLCJ?F"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4201884,
+                        "lng" : -81.5813909
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "0.1 mi",
+                  "value" : 212
+               },
+               "duration" : 
+               {
+                  "text" : "3 mins",
+                  "value" : 173
+               },
+               "end_address" : "Bay Lake, FL 32836, USA",
+               "end_location" : 
+               {
+                  "lat" : 28.4212088,
+                  "lng" : -81.5806891
+               },
+               "start_address" : "1180 Seven Seas Drive, Lake Buena Vista, FL 32830, USA",
+               "start_location" : 
+               {
+                  "lat" : 28.420402,
+                  "lng" : -81.5819209
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "190 ft",
+                        "value" : 58
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 46
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4201884,
+                        "lng" : -81.5813909
+                     },
+                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e on \u003cb\u003eFantasyland\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ozmlD~}|pN?GBKBM?CDMZu@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.420402,
+                        "lng" : -81.5819209
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "115 ft",
+                        "value" : 35
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 29
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4202895,
+                        "lng" : -81.58110219999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e after Peter Pan's Flight (on the right)",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "eymlDtz|pNEAAAAAA?AAAAAA?AACAA?AAA?C?AAE@G?C?A@C@C"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4201884,
+                        "lng" : -81.5813909
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "390 ft",
+                        "value" : 119
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 98
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4212088,
+                        "lng" : -81.5806891
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eFantasyland\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "yymlDzx|pNOOGKKQMKMKIEKAQEEAGBE@G?k@AG?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4202895,
+                        "lng" : -81.58110219999999
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "0.4 mi",
+                  "value" : 578
+               },
+               "duration" : 
+               {
+                  "text" : "8 mins",
+                  "value" : 450
+               },
+               "end_address" : "1180 Seven Seas Drive, Lake Buena Vista, FL 32830, USA",
+               "end_location" : 
+               {
+                  "lat" : 28.4180288,
+                  "lng" : -81.5833475
+               },
+               "start_address" : "Bay Lake, FL 32836, USA",
+               "start_location" : 
+               {
+                  "lat" : 28.4212088,
+                  "lng" : -81.5806891
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "390 ft",
+                        "value" : 119
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 92
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4202903,
+                        "lng" : -81.58110139999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eFantasyland\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "q_nlDhv|pNF?j@@F?DAFCD@PDJ@HDLJLJJPFJNN"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4212088,
+                        "lng" : -81.5806891
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "154 ft",
+                        "value" : 47
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4199812,
+                        "lng" : -81.581192
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "yymlDzx|pNBC?A@A@A@A@?BA@AB?DA@@B?@?@?@@B?@@@@@@@@@@?@@@@@?@@B?@@B?B"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4202903,
+                        "lng" : -81.58110139999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "253 ft",
+                        "value" : 77
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 61
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4192922,
+                        "lng" : -81.5812059
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eAdventureland\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Sir Mickey's (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "{wmlDly|pNF?L@\\?f@@^AL@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4199812,
+                        "lng" : -81.581192
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "161 ft",
+                        "value" : 49
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4189414,
+                        "lng" : -81.58129770000001
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eAdventureland\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by the lake (on the right)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "qsmlDpy|pN?H@D@B@@@@B?D@B?@?FBB?F?XK"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4192922,
+                        "lng" : -81.5812059
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "125 ft",
+                        "value" : 38
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 31
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4186662,
+                        "lng" : -81.58146339999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e after Cinderella Castle",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "kqmlDbz|pN@D@BBB@@BDDBB@@@B@@?D@B?@?@?@?@?BA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4189414,
+                        "lng" : -81.58129770000001
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "148 ft",
+                        "value" : 45
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 37
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4185637,
+                        "lng" : -81.5819042
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e before the lake",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "uomlDb{|pNJj@Hj@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4186662,
+                        "lng" : -81.58146339999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "10 ft",
+                        "value" : 3
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 3
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4185352,
+                        "lng" : -81.58191339999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eAdventureland\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "_omlDz}|pNB@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4185637,
+                        "lng" : -81.5819042
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "184 ft",
+                        "value" : 56
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 44
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4183766,
+                        "lng" : -81.58244839999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eAdventureland\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Main Street, U.S.A. (on the left in 72 ft)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "{nmlD|}|pNHVDP@HF`@DT"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4185352,
+                        "lng" : -81.58191339999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "289 ft",
+                        "value" : 88
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 70
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4185033,
+                        "lng" : -81.5832673
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e at Swiss Family Treehouse to stay on \u003cb\u003eAdventureland\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Tinkerbell's Magical Nook (on the right)\u003c/div\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : 
+                     {
+                        "points" : "{mmlDha}pN?^ABIHILGHCH@P?D?FCH?FJ`@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4183766,
+                        "lng" : -81.58244839999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "66 ft",
+                        "value" : 20
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 16
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4183397,
+                        "lng" : -81.58333759999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e after Island Supply by Sunglass Hut (on the right)",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "snmlDlf}pNB?@?B?@@@?@?@@B?@@@@B@@B"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4185033,
+                        "lng" : -81.5832673
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "118 ft",
+                        "value" : 36
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 28.4180288,
+                        "lng" : -81.5833475
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : 
+                     {
+                        "points" : "smmlDzf}pNLEF@D@PFNC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 28.4183397,
+                        "lng" : -81.58333759999999
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "y_mlDb{|pNIBWCm@B]UOLI?Y?G?AWISi@Ay@@}AACyAEwAg@Wk@e@IKB]JmAEAGCEEIMEW@KNWHEDCCg@Em@c@FKi@ACAE?G@EAFBLJj@Fp@OXSx@I\\EHQ@}Bt@MJE`@RTZZAH?JBt@E\\GFINA`@AFS`@k@AG??D?DADEFOLI@GAa@bAGd@Fe@`@cAGCGEGS?SBGW[Y]WQ]GEAGBM@s@A`A?FCD@\\FVPX\\VZBEFENEH@NLDH@D?BF?j@@fA?L@?HBHLDPBF?XK@DDFDFNHL@HATvAB@HVFZLv@Ab@SVKR@VCPJh@J@H@HHTCVHNC"
+         },
+         "summary" : "Main St",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : 
+         [
+            0,
+            1,
+            2
+         ]
+      }
+   ],
+   "status" : "OK"
+}
