@@ -41,7 +41,7 @@ Our first stop is at Space Mountain, an indoor rollercoster that makes you feel 
 ```
 https://maps.google.com/?cid=15740132033244629220
 ```
-Next, take a relaxing ride on "it's a small world", an indoor ferry ride with a song that will surely get stuck in your head. This vibrant ride will lift your spirits and give you a chance to rest your feet. Plus the wait time is usually quite short.
+Next, take a relaxing ride on "it's a small world", an indoor ferry ride with a song that will surely get stuck in your head. This vibrant ride will lift your spirits and give you a chance to rest your feet. Plus the wait time is usually short.
 ```
 https://maps.google.com/?cid=4771927627430446726
 ```
@@ -49,9 +49,9 @@ Finally, you are ready for a bite to eat... Dine at Be Our Guest Resturant, with
 ```
 https://maps.google.com/?cid=331960791212316929
 ```
-Ready to go home? Take Disney's transit to Animal Kingdom Lodge for a memerable experience. Look out your balcony and experience your own African Safari adventure. 
+One last Ride? Enjoy Jungle Cruise, a relaxing boat ride along 3 jungle rivers.
 ```
-https://maps.google.com/?cid=12609507618500137747
+https://maps.google.com/?cid=3388443586774926705
 ```
 ____
 ## Rubric
