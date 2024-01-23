@@ -4,25 +4,12 @@ function initMap() {
     center: { lat: 50.00, lng: -85.00 },
   });
   // Create an array of alphabetical characters used to label the markers.
-//   const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-//   // Add some markers to the map.
-//   // Note: The code uses the JavaScript Array.prototype.map() method to
-//   // create an array of markers based on a given "locations" array.
-//   // The map() method here has nothing to do with the Google Maps API.
-//   const markers = locations.map((location, i) => {
-//     return new google.maps.Marker({
-//       position: location,
-//       label: labels[i % labels.length],
-//     });
-//   });
-//   // Add a marker clusterer to manage the markers.
-//   new MarkerClusterer(map, markers, {
-//     imagePath:
-//       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-//   });
-// }
-//   var markers = L.markerClusterGroup();
-  // Read markers data from data.csv
+   const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+   // Add some markers to the map.
+   // Note: The code uses the JavaScript Array.prototype.map() method to
+   // create an array of markers based on a given "locations" array.
+   // The map() method here has nothing to do with the Google Maps API.
+     // Read markers data from data.csv
   $.get('ontarioparkslist.csv', function(csvString) {
 	  
   // Use PapaParse to convert string to array of objects
@@ -30,12 +17,26 @@ function initMap() {
   // For each row in data, create a marker and add it to the map
   // For each row, columns `Latitude`, `Longitude`, and `Title` are required
   for (var i in data) {
-    var row = data[i];     
+    var row = data[i];  
+	const markers = data.map(([row.Latitude, row.Longitude]) => {
+     return new google.maps.Marker({
+       position: location,
+       label: labels[i % labels.length],
+     });
+   });
+   // Add a marker clusterer to manage the markers.
+   new MarkerClusterer(map, markers, {
+     imagePath:
+       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+   });
+ }
+   var markers = L.markerClusterGroup();
+   
   //check starting here for changes	    
-      var marker = L.marker([row.Latitude, row.Longitude], {
-	      opacity: 1
-      }).bindPopup(row.Name);      
-      markers.addLayer(marker);
+      // var marker = L.marker([row.Latitude, row.Longitude], {
+	     //  opacity: 1
+      // }).bindPopup(row.Name);      
+      // markers.addLayer(marker);
      
     }
    });
