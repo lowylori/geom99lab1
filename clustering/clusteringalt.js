@@ -10,7 +10,7 @@ function initMap() {
    // create an array of markers based on a given "locations" array.
    // The map() method here has nothing to do with the Google Maps API.
      // Read markers data from data.csv
-  $.get('ontarioparkslist.csv', function(csvString) {
+  $.get('clustering/ontarioparkslist.csv', function(csvString) {
 	  
   // Use PapaParse to convert string to array of objects
   var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
