@@ -15,7 +15,7 @@ Papa.parse("https://lowylori.github.io/geom99lab1/clustering/ontarioparkslist.cs
 	header: true,
 	dynamicTyping: true,
 	complete: function (result) {
-		console.log(result.data);
+		console.log(result);
 		const locations = result.data.map(row => ({
 			title: row.Name,
 			lat: row.Latitude,
