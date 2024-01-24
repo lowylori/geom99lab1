@@ -11,8 +11,8 @@ function initMap() {
    const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 // load csv file and parse content
-Papa.parse("ontarioparkslist.csv", {
-	//header: true,
+Papa.parse("https://lowylori.github.io/geom99lab1/clustering/ontarioparkslist.csv", {
+	header: true,
 	dynamicTyping: true,
 	complete: function (result) {
 		console.log(result.data);
