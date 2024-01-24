@@ -16,15 +16,15 @@ Papa.parse("https://lowylori.github.io/geom99lab1/clustering/ontarioparkslist.cs
 	header: true,
 	dynamicTyping: true,
 	complete: function (result) {
-		console.log(result);
 		const locations = result.data.map(row => ({
 			title: row.Name,
-			lat: row.Latitude,
-			lng: row.Longitude,
+			lat: parseFloat(row.Latitude),
+			lng: parseFloat(row.Longitude),
 		}));
-
+	console.log(locations);
 	// create markers based on location
 		const markers = locations.map((location, i) => {
+			console.log('Creating Markers: location);
 			return new google.maps.Marker({
 				position: {lat: location.lat, lng: location.lng},
 				label: labels[i % labels.length],
