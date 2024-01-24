@@ -26,7 +26,7 @@ Papa.parse("ontarioparkslist.csv", {
 		const markers = locations.map((location, i) => {
 			return new google.maps.Marker({
 				position: {lat: location.lat, lng: location.lng},
-				label: location.Name,
+				label: location.title,
 			});
 		});
 		console.log(markers);
