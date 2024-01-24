@@ -11,7 +11,7 @@ function initMap() {
    const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 // load csv file and parse content
-Papa.parse("./ontarioparkslist.csv", {
+Papa.parse("ontarioparkslist.csv", {
 	header: true,
 	dynamicTyping: true,
 	complete: function (result) {
@@ -26,7 +26,7 @@ Papa.parse("./ontarioparkslist.csv", {
 		const markers = locations.map((location, i) => {
 			return new google.maps.Marker({
 				position: {lat: location.lat, lng: location.lng},
-				label: location.title,
+				label: labels[i % labels.length],
 			});
 		});
 		console.log(markers);
