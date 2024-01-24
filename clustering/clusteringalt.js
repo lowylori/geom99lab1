@@ -12,25 +12,26 @@ function initMap() {
 
 // load csv file and parse content
 Papa.parse("https://lowylori.github.io/geom99lab1/clustering/ontarioparkslist.csv", {
-	download: true,
+	download: true,    //since the file is not local
 	header: true,
 	dynamicTyping: true,
 	complete: function (result) {
 		const locations = result.data.map(row => ({
 			title: row.Name,
-			lat: parseFloat(row.Latitude),
+			lat: parseFloat(row.Latitude),  //ensure its parsed as a number
 			lng: parseFloat(row.Longitude),
 		}));
-	console.log(locations);
+	console.log(locations); //for developing purposes
 	// create markers based on location
 		const markers = locations.map((location, i) => {
 			console.log('Creating Markers:', location);
 			return new google.maps.Marker({
 				position: {lat: location.lat, lng: location.lng},
-				label: location.title,
+				//label: location.title,
+				label: labels[i % labels.length],
 			});
 		});
-		console.log(markers);
+		console.log(markers); //for developing purposes
    	// Add a marker clusterer to manage the markers.
    	new MarkerClusterer(map, markers, {
     	imagePath:
