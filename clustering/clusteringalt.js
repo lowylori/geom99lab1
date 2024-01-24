@@ -12,6 +12,7 @@ function initMap() {
 
 // load csv file and parse content
 Papa.parse("https://lowylori.github.io/geom99lab1/clustering/ontarioparkslist.csv", {
+	download: true,
 	header: true,
 	dynamicTyping: true,
 	complete: function (result) {
