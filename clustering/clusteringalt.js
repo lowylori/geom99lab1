@@ -11,7 +11,7 @@ function initMap() {
    const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 // load csv file and parse content
-Papa.parse("ontarioparkslist.csv", {
+Papa.parse("clustering/ontarioparkslist.csv", {
 	header: true,
 	dynamicTyping: true,
 	complete: function (result) {
