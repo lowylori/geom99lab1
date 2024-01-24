@@ -1,3 +1,7 @@
+// clustering alt reads the lat and long coords directly from the csv ontarioparkslist and creates markers based on those locations
+// sources: https://github.com/maggiehm/nzamorawilson-map/blob/main/index.html & chat GPT
+
+
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 3,
