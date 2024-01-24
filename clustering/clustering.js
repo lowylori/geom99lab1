@@ -1,3 +1,5 @@
+// see clustering/clusteringalt.js for alternate solution
+
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 3,
