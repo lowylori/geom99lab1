@@ -17,7 +17,7 @@ Papa.parse("ontarioparkslist.csv", {
 	complete: function (result) {
 		console.log(result.data);
 		const locations = result.data.map(row => ({
-			title: row.Name
+			title: row.Name,
 			lat: row.Latitude,
 			lng: row.Longitude,
 		}));
