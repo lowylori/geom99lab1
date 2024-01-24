@@ -15,11 +15,11 @@ Papa.parse("ontarioparkslist.csv", {
 	header: true,
 	dynamicTyping: true,
 	complete: function (result) {
+		console.log(result.data);
 		const locations = result.data.map(row => ({
 			lat: row.Latitude,
 			long: row.Longitude,
 		}));
-	console.log(locations);
 
 	// create markers based on location
 		const markers = locations.map((location, i) => {
@@ -28,7 +28,7 @@ Papa.parse("ontarioparkslist.csv", {
 				label: labels[i % labels.length],
 			});
 		});
-
+		console.log(markers);
    	// Add a marker clusterer to manage the markers.
    	new MarkerClusterer(map, markers, {
     	imagePath:
