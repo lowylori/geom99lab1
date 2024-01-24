@@ -27,7 +27,7 @@ Papa.parse("https://lowylori.github.io/geom99lab1/clustering/ontarioparkslist.cs
 			console.log('Creating Markers:', location);
 			return new google.maps.Marker({
 				position: {lat: location.lat, lng: location.lng},
-				label: labels[i % labels.length],
+				label: location.title,
 			});
 		});
 		console.log(markers);
