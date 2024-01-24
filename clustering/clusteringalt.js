@@ -19,7 +19,7 @@ Papa.parse("ontarioparkslist.csv", {
 			lat: row.Latitude,
 			long: row.Longitude,
 		}));
-	consol.log(locations);
+	console.log(locations);
 
 	// create markers based on location
 		const markers = locations.map((location, i) => {
