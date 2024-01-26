@@ -28,7 +28,7 @@
           zoom: 10,
         });
       }
-
+      // https://developers.google.com/maps/documentation/javascript/shapes#circles
       // Construct a 40 km circle around the center of the map
       const cityCircle = new google.maps.Circle({
         strokeColor: "#FF0000",
@@ -37,7 +37,7 @@
         fillColor: "#FF0000",
         fillOpacity: 0.35,
         map,
-        center: map.center,
+        center: { lat: 43.761, lng: -79.411 },
         radius: 40000
         });
     </script>
