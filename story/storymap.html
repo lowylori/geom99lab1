@@ -196,6 +196,9 @@
             });
           },
         });
+
+        // Create an info window
+        // https://developers.google.com/maps/documentation/javascript/infowindows#open
         const contentString =
         '<div id="content">' +
         '<div id="siteNotice">' +
@@ -212,7 +215,7 @@
         ariaLabel: "Driving Distance",
       });
 
-      marker.addListener("click", () => {
+      marker.addListener("dragstart", () => {
         infowindow.open({
           anchor: circle,
           map,
