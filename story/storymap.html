@@ -27,20 +27,24 @@
           center: { lat: 43.761, lng: -79.411 },
           zoom: 10,
         });
-      }
+      
       // https://developers.google.com/maps/documentation/javascript/shapes#circles
       // Construct a 40 km circle around the center of the map
-      const circle = new google.maps.Circle({
-        strokeColor: "#FF0000",
-        strokeOpacity: 0.8,
-        strokeWeight: 2,
-        fillColor: "#FF0000",
-        fillOpacity: 0.35,
-        map: map,
-        center: { lat: 43.761, lng: -79.411 },
-        radius: 40000
-        });
-      window.initMap = initMap;
+        const circle = new google.maps.Circle({
+          strokeColor: "#FF0000",
+          strokeOpacity: 0.8,
+          strokeWeight: 2,
+          fillColor: "#FF0000",
+          fillOpacity: 0.35,
+          map: map,
+          center: { lat: 43.761, lng: -79.411 },
+          radius: 40000
+          });
+      }
+
+      // Create cluster points for trailheads
+      
+
     </script>
   </head>
   <body>
