@@ -214,10 +214,13 @@
         content: contentString,
         ariaLabel: "Driving Distance",
       });
-
-      google.maps.event.addListener(circle, 'dragend', function () {
-        infowindow.open(map, circle);
-      });
+        // Use 'center_changed' event of the circle to show the info window when the center changes
+      google.maps.event.addListener(circle, 'center_changed', function () {
+        infowindow.setPosition(circle.getCenter());
+        infowindow.open(map);
+      // google.maps.event.addListener(circle, 'dragend', function () {
+      //   infowindow.open(map, circle);
+      // });
 
       }
     </script>
