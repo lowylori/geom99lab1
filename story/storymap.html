@@ -196,7 +196,29 @@
             });
           },
         });
-      
+        const contentString =
+        '<div id="content">' +
+        '<div id="siteNotice">' +
+        "</div>" +
+        '<h1 id="firstHeading" class="firstHeading">Driving Distance</h1>' +
+        '<div id="bodyContent">' +
+        "<p> The Circle displayed has a radius of 40km, which is about 40mins-1hr "  +
+        "of a drive. Drag the cicle to your location to find Trail heads that are " +
+        "Within a short driving range from you. Trail locations are only for Ontario. </p>" +
+        "</div>" +
+        "</div>";
+      const infowindow = new google.maps.InfoWindow({
+        content: contentString,
+        ariaLabel: "Driving Distance",
+      });
+
+      marker.addListener("click", () => {
+        infowindow.open({
+          anchor: circle,
+          map,
+        });
+      });
+
       }
     </script>
   </head>
