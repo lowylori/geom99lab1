@@ -30,6 +30,7 @@
           zoom: 10,
         });
       
+        const hiking = "https://lowylori.github.io/geom99lab1/storymap/hiking-trail-pin.png"
       // https://developers.google.com/maps/documentation/javascript/shapes#circles
       // Construct a 40 km circle around the center of the map
         const circle = new google.maps.Circle({
@@ -61,6 +62,7 @@
             console.log('Creating Markers:', location);
             return new google.maps.Marker({
               position: {lat: location.lat, lng: location.lng},
+              icon: hiking
             });
           });
           console.log(markers); //for developing purposes
